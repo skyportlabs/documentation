@@ -17,12 +17,16 @@ const navigation = [
     links: [
       { title: 'Getting started', href: '/' },
       { title: 'Installation', href: '/docs/installation' },
+      { title: 'Terminology', href: '/docs/terminology' },
+      { title: 'Development', href: '/docs/development' },
+      { title: 'Plugins', href: '/docs/plugins' },
+      { title: 'API reference', href: '/docs/api-reference' },
     ],
   },
   {
     title: 'Daemon (skyportd)',
     links: [
-      { title: 'Installation', href: '/docs/skyportd' }
+      { title: 'Installation', href: '/docs/daemon' }
     ],
   }
 ]
@@ -63,7 +67,7 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" aria-label="Home page" className="text-xl font-semibold text-neutral-800 dark:text-white">
-          skyport.dev
+          Skyport
         </Link>
       </div>
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
