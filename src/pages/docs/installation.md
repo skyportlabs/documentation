@@ -70,4 +70,4 @@ All you need to do now is start Skyport:
 node .
 ```
 
-Your Panel will now be accessible from port 3001. We recommend having a look at the `config.json` file and changing the remote key to something more secure.
+Your Panel will now be accessible from port 3001 (unless you changed it in `config.json`).

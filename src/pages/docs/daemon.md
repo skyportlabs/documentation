@@ -41,11 +41,11 @@ cd skyportd
 npm install
 ```
 
-You should then set an access key and connect skyportd to your Panel by editing the `config.json` file. You can then add the node to the Panel and start the Daemon.
+You can then add the node to the Panel and get the configure command by clicking the "Configure" button. Once you have executed this command, you are ready to start the Daemon.
 
 ### Setup Complete
 
-All you need to do now is start Skyport Daemon:
+All you need to do now is start skyportd:
 ``` bash
 node .
 ```
