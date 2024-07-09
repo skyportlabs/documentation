@@ -59,7 +59,7 @@ npm install
 You'll then need to create an administrative user so that you can log into the panel. To do so, run the command below.
 
 ``` bash
-nom run seed
+npm run seed
 npm run createUser
 ```
 
