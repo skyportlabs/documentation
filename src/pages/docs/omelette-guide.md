@@ -19,3 +19,4 @@ However, here's an omelette recipe:
 4. At this point you can fill the omelette with whatever you like – some grated cheese, sliced ham, fresh herbs, sautéed mushrooms or smoked salmon all work well. Scatter the filling over the top of the omelette and fold gently in half with the spatula. Slide onto a plate to serve.
 
 ![1](https://i.imgur.com/SPz1L8i.png)
+![2](https://i.imgur.com/2UVLgcy.png)
