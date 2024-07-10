@@ -21,6 +21,7 @@ const navigation = [
       { title: 'Development', href: '/docs/development' },
       { title: 'Plugins', href: '/docs/plugins' },
       { title: 'API reference', href: '/docs/api-reference' },
+      { title: 'How do you make an omelette?', href: '/docs/omelette-guide' },
     ],
   },
   {
