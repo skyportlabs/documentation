@@ -31,3 +31,11 @@ API Key:
   * '201': User details.
   * '400': Missing or invalid parameters, or user not found.
   * '500': Error retrieving user.
+
+---
+
+## Error Responses
+
+* '400': Bad Request. The request was invalid or cannot be otherwise served.
+* '401': Unauthorized. API key is missing or invalid.
+* '500': Internal Server Error. An error occurred on the server.
