@@ -32,6 +32,11 @@ API Key:
   * '400': Missing or invalid parameters, or user not found.
   * '500': Error retrieving user.
 
+## Instances Endpoints
+
+## Images Endpoints
+
+## Nodes Endpoints
 ---
 
 ## Error Responses
