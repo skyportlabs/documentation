@@ -18,7 +18,7 @@ API Key
 
 User Endpoints
 
-### **GET** | /api/users
+### GET | /api/users
 * Retrieves a list of all users.
 * Reponse:
   * '200': List of users.
