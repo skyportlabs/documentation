@@ -106,6 +106,36 @@ API Key:
   * '500': Error retrieving images.
 
 ## Nodes Endpoints
+
+### GET | /api/nodes
+* Retrieves a list of all nodes
+* Response:
+  * '200': List of nodes.
+  * '500': Error retrieving nodes.
+
+### POST | /api/nodes/create
+* Creates a new node.
+* Request Body:
+  * 'name' (string): Name of the node.
+  * 'tags' (string): Tags associated with the node.
+  * 'ram' (string): RAM specification.
+  * 'disk' (string): Disk specification.
+  * 'processor' (string): Processor specification.
+  * 'address' (string): Network address of the node.
+  * 'port' (string): Network port.
+* Response:
+  * '201': Node created with details.
+  * '400': Missing parameters.
+  * '500': Error creating node.
+
+### DELETE | /api/nodes/delete
+* Deletes an existing node.
+* Request Body:
+  * 'nodeId' (string): ID of the node to delete.
+* Response:
+  * '201': Node deleted.
+  * '400': Invalid or missing node ID.
+  * '500': Error deleting node.
 ---
 
 ## Error Responses
