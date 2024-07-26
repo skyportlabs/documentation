@@ -32,7 +32,7 @@ API Key:
   * '400': Missing or invalid parameters, or user not found.
   * '500': Error retrieving user.
 
-## POST | /api/users/create
+### POST | /api/users/create
 * Creates a new user.
 * Request Body:
   * 'username' (string): Username of the new user.
