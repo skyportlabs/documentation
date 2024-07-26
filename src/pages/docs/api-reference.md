@@ -9,8 +9,8 @@ This API allows managing users, instances, and nodes. It requires an API key for
 
 ## Authentication
 API Key
+* An API key is required for all endpoints. It ensures that the request is authenticated and authorized.
 * Header: x-api-key
-* Description: An API key is required for all endpoints. It ensures that the request is authenticated and authorized.
 
 ---
 
