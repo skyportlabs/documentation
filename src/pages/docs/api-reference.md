@@ -14,9 +14,7 @@ API Key
 
 ---
 
-## Endpoints
-
-User Endpoints
+## User Endpoints
 
 ### GET | /api/users
 * Retrieves a list of all users.
