@@ -48,6 +48,55 @@ API Key:
 
 ## Instances Endpoints
 
+### GET | /api/instances
+* Retrieves a list of all instances.
+* Response:
+  * '200': List of instances.
+  * '500': Error retrieving instances.
+
+### POST | /api/instances/deploy
+* Deploys a new instance.
+* Request Body:
+  * 'image' (string): Image to deploy.
+  * 'memory' (string): Memory allocation.
+  * 'cpu' (string): CPU allocation.
+  * 'ports' (string): Port mapping.
+  * 'nodeId' (string): Node ID where the instance will be deployed.
+  * 'name' (string): Name of the instance.
+  * 'user' (string): User ID owning the instance.
+  * 'primary' (string): Primary port.
+* Response:
+  * '201': Instance created.
+  * '400': Missing parameters.
+  * '500': Error deploying instance.
+
+### DELETE | /api/instance/delete
+* Deletes an existing instance.
+* Request Body:
+  * 'id' (string): ID of the instance to delete.
+* Response:
+  * '201': Instance deleted.
+  * '400': Missing ID or instance not found.
+  * '500': Error deleting instance.
+
+### POST | /api/getUserInstance
+* Retrieves instances owned by a specific user.
+* Request Body:
+  * 'userId' (string): ID of the user.
+* Response:
+  * '200': List of user instances.
+  * '400': Missing user ID or user not found.
+  * '500': Error retrieving user instances.
+
+### POST | /api/getInstance
+* Retrieves details of a specific instance.
+* Request Body:
+  * 'id' (string): ID of the instance.
+* Response:
+  * '200': Instance details.
+  * '400': Missing instance ID or instance not found.
+  * '500': Error retrieving instance.
+
 ## Images Endpoints
 
 ### GET | /api/images
