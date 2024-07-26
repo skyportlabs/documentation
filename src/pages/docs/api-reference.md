@@ -32,6 +32,20 @@ API Key:
   * '400': Missing or invalid parameters, or user not found.
   * '500': Error retrieving user.
 
+## POST | /api/users/create
+* Creates a new user.
+* Request Body:
+  * 'username' (string): Username of the new user.
+  * 'email' (string): Email of the new user.
+  * 'password' (string): Password for the new user.
+  * 'userId' (string, optional): User ID, generated if not provided.
+  * 'admin' (boolean, optional): Whether the user has admin rights.
+* Response:
+  * '201': User created with details.
+  * '400': Missing required parameters.
+  * '409': User already exists.
+  * '500': Error creating user.
+
 ## Instances Endpoints
 
 ## Images Endpoints
