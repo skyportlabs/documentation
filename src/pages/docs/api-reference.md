@@ -23,3 +23,13 @@ User Endpoints
 * Reponse:
   * '200': List of users.
   * '500': Error retrieving users.
+
+### POST | /api/getUser
+* Retrieves a user by email or username.
+* Request Body:
+  * 'type' (string): The search type, either 'email' or 'username'.
+  * 'value' (string): The email or username to search for.
+* Response:
+  * '201': User details.
+  * '400': Missing or invalid parameters, or user not found.
+  * '500': Error retrieving user.
