@@ -8,7 +8,7 @@ description: Learn how api works.
 This API allows managing users, instances, and nodes. It requires an API key for all requests, which should be passed in the x-api-key header.
 
 ## Authentication
-API Key
+API Key:
 * An API key is required for all endpoints. It ensures that the request is authenticated and authorized.
 * Header: x-api-key
 
