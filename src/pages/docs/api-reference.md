@@ -1,6 +1,6 @@
 ---
 title: API reference
-description: Coming soon.
+description: Learn how api works.
 ---
 
 ## Overview
@@ -13,3 +13,13 @@ API Key
 * Description: An API key is required for all endpoints. It ensures that the request is authenticated and authorized.
 
 ---
+
+## Endpoints
+
+User Endpoints
+
+### **GET** | /api/users
+* Retrieves a list of all users.
+* Reponse:
+  * '200': List of users.
+  * '500': Error retrieving users.
