@@ -36,6 +36,12 @@ API Key:
 
 ## Images Endpoints
 
+### GET | /api/images
+* Retrieves a list of available images.
+* Response:
+  * '200': List of images.
+  * '500': Error retrieving images.
+
 ## Nodes Endpoints
 ---
 
