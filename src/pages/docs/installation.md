@@ -21,7 +21,7 @@ Skyport runs on a wide range of operating systems, so pick whichever you are mos
 
 ## Dependencies
 
-* Node.js `v18` and higher (Nodejs `v22` recommended).
+* Node.js `v20` and higher (Nodejs `v20` recommended).
 
 ### Example Dependency Installation
 
