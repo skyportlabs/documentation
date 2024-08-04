@@ -15,7 +15,7 @@ Skyport runs on a wide range of operating systems, so pick whichever you are mos
 |                  | 8       | ✅ | Note that CentOS 8 is EOL. Use Rocky or Alma Linux.         |
 | **Debian**       | 11      | ✅ |                                                             |
 |                  | 12      | ✅ |                                                             |
-| **Windows**      | 11      | ✅ |                                                             |
+| **Windows**      | 11      | ✅ | May have issues due to Windows' firewall.                   |
 |                  | 10      | ✅ |                                                             |
 | **macOS**        | 10.15+  | ✅ |                                                             |
 
@@ -44,7 +44,7 @@ The following commands will download the Skyport Panel into /etc/skyport and use
 
 ``` bash
 cd /etc
-git clone --branch 0.1.0-beta6 https://github.com/skyportlabs/panel
+git clone --branch 0.2.0-beta2 https://github.com/skyportlabs/panel
 mv panel skyport
 cd skyport
 npm install
