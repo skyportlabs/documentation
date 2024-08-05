@@ -44,7 +44,7 @@ The following commands will download the Skyport Panel into /etc/skyport and use
 
 ``` bash
 cd /etc
-git clone --branch 0.2.0 https://github.com/skyportlabs/panel
+git clone --branch v0.2.0 https://github.com/skyportlabs/panel
 mv panel skyport
 cd skyport
 npm install
