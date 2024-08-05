@@ -1,6 +1,3 @@
-title: Webserver Configuration
-description: Learn how to host the Skyport panel onto a webserver using Reverse Proxy
----
 ## Webserver Configuration
 
 Easily deploy the latest version of Skyport Panel on your own domain by following these steps:
