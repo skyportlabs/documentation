@@ -118,4 +118,4 @@ sudo ln -s /etc/nginx/sites-available/skyport.conf /etc/nginx/sites-enabled/
 sudo systemctl restart nginx
 ```
 
-# Done! Go to your Domain and view the new fresh update with no ip+port url :)
+# Done! Head over to Your Domain :)
