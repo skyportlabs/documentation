@@ -17,6 +17,7 @@ const navigation = [
     links: [
       { title: 'Getting started', href: '/' },
       { title: 'Installation', href: '/docs/installation' },
+      { title: 'Webserver Configuration', href: '/docs/webserver' },
       { title: 'Terminology', href: '/docs/terminology' },
       { title: 'Development', href: '/docs/development' },
       { title: 'Plugins', href: '/docs/plugins' },
