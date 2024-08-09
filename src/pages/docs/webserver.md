@@ -3,9 +3,7 @@
 Easily deploy the latest version of Skyport Panel on your own domain by following these steps:
 
 ## Dependencies
-
-* Nginx
-* SSL certificate (optional)
+This webserver configuration example uses nginx, so nginx is a dependency.
 
 ### Example Dependency Installation
 
@@ -15,6 +13,19 @@ operating system's package manager to determine the correct packages to install.
 ```sh
 sudo apt update
 sudo apt install -y nginx
+sudo apt install -y python3-certbot-nginx
+```
+
+## Creating SSL certificates
+### HTTP Challenge
+HTTP challenge requires you to expose port 80 for the challenge verification.
+```sh
+certbot certonly --nginx -d example.com
+```
+### DNS Challenge
+DNS challenge requires you to create a new TXT DNS record to verify domain ownership, instead of having to expose port 80. The instructions are displayed when you run the certbot command below.
+```sh
+certbot -d example.com --manual --preferred-challenges dns certonly
 ```
 
 ## Installation: using Nginx
