@@ -5,7 +5,7 @@ Easily deploy the latest version of Skyport Panel on your own domain by followin
 ## Dependencies
 
 * Nginx
-* SSL ( optional )
+* SSL certificate (optional)
 
 ### Example Dependency Installation
 
@@ -27,7 +27,7 @@ rm /etc/nginx/sites-enabled/default
 
 Now, you should paste the contents of the file below, replacing `<domain>` with your domain name and `<port>` for the current active port inside of a file called `skyport.conf` and place the file in `/etc/nginx/sites-available/`
 
-### With SSL ( Secure Sockets Layer )
+### SSL enabled config
 
 ```nginx
 server {
@@ -75,7 +75,7 @@ server {
 
 ```
 
-### Without SSL ( Secure Sockets Layer )
+### Without SSL
 
 ```nginx
 server {
@@ -109,7 +109,7 @@ server {
 
 ```
 
-### Enabling Configuration  
+### Enabling the Configuration  
 
 The final step is to enable your Nginx configuration and restart it.
 
@@ -118,4 +118,4 @@ sudo ln -s /etc/nginx/sites-available/skyport.conf /etc/nginx/sites-enabled/
 sudo systemctl restart nginx
 ```
 
-# Done! Head over to Your Domain :)
+Your Panel will now be accessible from the domain!
