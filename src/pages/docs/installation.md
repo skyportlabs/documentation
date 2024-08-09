@@ -15,7 +15,7 @@ Skyport runs on a wide range of operating systems, so pick whichever you are mos
 |                  | 8       | ✅ | Note that CentOS 8 is EOL. Use Rocky or Alma Linux.         |
 | **Debian**       | 11      | ✅ |                                                             |
 |                  | 12      | ✅ |                                                             |
-| **Windows**      | 11      | ⚠️ | Support is very limited due to Docker's use of WSL on the Windows and macOS operating systems. You will have issues connecting to instances ran on a machine with either OS.                   |
+| **Windows**      | 11      | ⚠️ | Support is very limited due to Docker's use of WSL (and LinuxKit VMs on Mac) on the Windows and macOS operating systems. You will have issues connecting to instances ran on a machine with either OS.                   |
 |                  | 10      | ⚠️ |                                                             |
 | **macOS**        | 10.15+  | ⚠️ |                                                             |
 
