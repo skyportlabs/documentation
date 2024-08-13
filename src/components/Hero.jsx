@@ -48,12 +48,12 @@ export function Hero() {
               priority
             />
             <div className="relative">
-              <p className="inline bg-white font-semibold bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                The game panel written from
-                the ground up in Node.js
+              <p className="inline bg-white font-semibold bg-clip-text font-display text-4xl tracking-tight text-transparent">
+                Game panel written from
+                the ground up with speed and security in mind.
               </p>
               <p className="mt-3 text-2xl tracking-tight text-neutral-400">
-                Skyport is an open source panel for managing and operating game servers and applications built using Node.js with Express and Dockerode.
+                Skyport is an open source panel for managing your game servers, applications and more built with modern technologies such as Node.js, Docker and Express - made to work with our skyportd software.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/docs/installation">Get started</Button>
