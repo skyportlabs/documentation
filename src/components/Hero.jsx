@@ -48,7 +48,7 @@ export function Hero() {
               priority
             />
             <div className="relative">
-              <p className="inline bg-white font-semibold bg-clip-text font-display text-4xl tracking-tight text-transparent">
+              <p className="inline bg-white font-semibold bg-clip-text font-display text-3xl tracking-tight text-transparent">
                 Game panel written from
                 the ground up with speed and security in mind.
               </p>
