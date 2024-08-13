@@ -49,7 +49,8 @@ export function Hero() {
             />
             <div className="relative">
               <p className="inline bg-white font-semibold bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                An actual alternative to Pterodactyl Panel.
+                The game panel written from
+                the ground up in Node.js
               </p>
               <p className="mt-3 text-2xl tracking-tight text-neutral-400">
                 Skyport is an open source panel for managing and operating game servers and applications built using Node.js with Express and Dockerode.
