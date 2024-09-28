@@ -35,7 +35,6 @@ function TrafficLightsIcon(props) {
 export function Hero() {
   return (
     <div className="overflow-hidden bg-neutral-900 dark:-mb-32 dark:mt-[-4.5rem] dark:pb-32 dark:pt-[4.5rem] dark:lg:mt-[-4.75rem] dark:lg:pt-[4.75rem]">
-    <div className="overflow-hidden bg-neutral-900 dark:-mb-32 dark:mt-[-4.5rem] dark:pb-32 dark:pt-[4.5rem] dark:lg:mt-[-4.75rem] dark:lg:pt-[4.75rem]">
       <div className="bg-red-500 text-white p-4 mb-6">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center">
