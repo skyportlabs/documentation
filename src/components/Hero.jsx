@@ -35,25 +35,6 @@ function TrafficLightsIcon(props) {
 export function Hero() {
   return (
     <div className="overflow-hidden bg-neutral-900 dark:-mb-32 dark:mt-[-4.5rem] dark:pb-32 dark:pt-[4.5rem] dark:lg:mt-[-4.75rem] dark:lg:pt-[4.75rem]">
-      <div className="bg-red-500 text-white p-4 mb-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <svg className="h-5 w-5 text-red-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-              </svg>
-            </div>
-            <div className="ml-3">
-              <h3 className="text-sm font-medium">Skyport is EOL (end-of-life).</h3>
-              <div className="mt-2 text-sm">
-                <p>
-                  Unfortunately we made too many mistakes, awful code quality and security primarily - it's making this very much impossible to maintain. I believe the future of Skyport is in someone forking it or using it as inspiration for their own project, not with us. Downloads peaked at over 20k for Skyport v0.2, I want to thank people for using this but it's most certainly over. Thank you for using Skyport.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="py-16 sm:px-2 lg:relative lg:py-20 lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 px-4 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
           <div className="relative z-10 md:text-center lg:text-left">
