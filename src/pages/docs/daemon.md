@@ -36,11 +36,39 @@ cd skyportd
 npm install
 ```
 
-You can then add the node to the Panel and get the configure command by clicking the "Configure" button. Once you have executed this command, you are ready to start the Daemon.
+You can then add the node to the panel and get the configuration command by clicking the "Configure" button. Once you have executed this command, you are ready to start the Daemon.
 
 ### Setup Complete
 
-All you need to do now is start skyportd:
-``` bash
+All you need to do now is start `skyportd`:
+```bash
 node .
 ```
+
+### For Production Applications
+
+To deploy `skyportd` efficiently in production, using PM2 or alternatives is recommended. Below are the standard PM2 setup steps.
+
+Run the following command to install PM2:
+```bash
+npm install pm2@latest -g
+```
+
+After this, run `skyportd` using PM2:
+```bash
+pm2 start index.js
+```
+
+### Advanced Users: Auto-Run on Startup
+
+With the PM2 process running in the background, run the following command:
+```bash
+pm2 startup
+```
+
+Then, to 'freeze' the running processes, run the following command:
+```bash
+pm2 save
+```
+
+This will ensure the PM2 process automatically respawns on startup.
