@@ -57,7 +57,8 @@ API Key:
 ### POST | /api/instances/deploy
 * Deploys a new instance.
 * Request Body:
-  * 'image' (string): Image to deploy.
+  * 'image' (string): Image to deploy.(Use Docker Image)
+  * 'imagename' (string): ImageName to deploy.
   * 'memory' (string): Memory allocation.
   * 'cpu' (string): CPU allocation.
   * 'ports' (string): Port mapping.
@@ -65,7 +66,8 @@ API Key:
   * 'name' (string): Name of the instance.
   * 'user' (string): User ID owning the instance.
   * 'primary' (string): Primary port.
-* Response:
+  * 'variables' (json): Variables of Image
+  * Response:
   * '201': Instance created.
   * '400': Missing parameters.
   * '500': Error deploying instance.
