@@ -32,7 +32,7 @@ API Key:
   * '400': Missing or invalid parameters, or user not found.
   * '500': Error retrieving user.
 
-### POST | /api/users/create
+### POST | /api/auth/create-user
 * Creates a new user.
 * Request Body:
   * 'username' (string): Username of the new user.
@@ -65,6 +65,7 @@ API Key:
   * 'name' (string): Name of the instance.
   * 'user' (string): User ID owning the instance.
   * 'primary' (string): Primary port.
+  * 'variables' (json): Variable of image (Optional).
 * Response:
   * '201': Instance created.
   * '400': Missing parameters.
@@ -89,6 +90,24 @@ API Key:
   * '500': Error retrieving user instances.
 
 ### POST | /api/getInstance
+* Retrieves details of a specific instance.
+* Request Body:
+  * 'id' (string): ID of the instance.
+* Response:
+  * '200': Instance details.
+  * '400': Missing instance ID or instance not found.
+  * '500': Error retrieving instance.
+
+### POST | /api/instances/unsuspend/:id
+* Retrieves details of a specific instance.
+* Request Body:
+  * 'id' (string): ID of the instance.
+* Response:
+  * '200': Instance details.
+  * '400': Missing instance ID or instance not found.
+  * '500': Error retrieving instance.
+
+### POST | /api/instances/unsuspend/:id
 * Retrieves details of a specific instance.
 * Request Body:
   * 'id' (string): ID of the instance.
