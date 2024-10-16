@@ -98,7 +98,7 @@ API Key:
   * '400': Missing instance ID or instance not found.
   * '500': Error retrieving instance.
 
-### POST | /api/instances/unsuspend/:id
+### POST | /api/instances/suspend/:id
 * Retrieves details of a specific instance.
 * Request Body:
   * 'id' (string): ID of the instance.
